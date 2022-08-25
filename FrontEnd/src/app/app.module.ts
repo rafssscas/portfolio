@@ -10,7 +10,7 @@ import { EducacionComponent } from './componentes/educacion/educacion.component'
 import { HardskillsComponent } from './componentes/hardskills/hardskills.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { AplogoComponent } from './componentes/aplogo/aplogo.component';
-import { SocialnetComponent } from './componentes/socialnet/socialnet.component';
+
 import { BannerComponent } from './componentes/banner/banner.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 
@@ -24,7 +24,7 @@ import { FooterComponent } from './componentes/footer/footer.component';
     HardskillsComponent,
     ProyectosComponent,
     AplogoComponent,
-    SocialnetComponent,
+
     BannerComponent,
     FooterComponent
   ],

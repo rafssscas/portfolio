@@ -1,5 +1,44 @@
+img {
+  width: 40px;
+}
+@media(min-width: 576px){
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 #aplogo{
-  width: 180px;
-  background-color: cornflowerblue;
+  width: 150px;
+
+}
+img{
+  width: 40px;
+}
+.sociales img {
+  margin: 0.3em;
 }
 
+.sociales{
+  margin-right: 0.5em;
+
+}
+.btn{
+  border-width: medium;
+}
+}
+@media (max-width: 575px) {
+
+  .container {
+    flex-direction: column;
+  }
+
+  .sociales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sociales img {
+    margin: 0.3em;
+  }
+}
